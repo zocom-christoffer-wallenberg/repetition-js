@@ -6,8 +6,17 @@
         <title>Shakespeare insult generator</title>
     </head>
     <body>
-        <button id="addBook">Lägg till bok</button>
+        <section>
+            <input type="text" id="book-title">
+            <button id="addBook">Lägg till bok</button>
+        </section>
+        <section>
+            <p id="success-message"></p>
+        </section>
         <button id="getAllBooks">Hämta</button>
+        <button id="removeAllBooks">Ta bort bibliotek</button>
+        <section id="books">
+        </section>
         <script src="js/index.js"></script>
     </body>
 </html>
